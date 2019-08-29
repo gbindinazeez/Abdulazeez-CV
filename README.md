@@ -1,6 +1,4 @@
 # Abdulazeez-CV
-This is my html code for my CV for the task 2 of start.ng
+This is my html code for my CV updated with CSS for the task 3 of start.ng
 
-twitter post https://twitter.com/gbindinazeez/status/1164962348332986368
-
-lucid post https://lucid.blog/gbindinazeez/post/1566584159
+lucid post https://lucid.blog/gbindinazeez/post/my-cv-with-css-updates-966
