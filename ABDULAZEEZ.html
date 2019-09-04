@@ -3,7 +3,7 @@
 
 <head>
 	<title>GBINDINNINUOLA ABDULAZEEZ CV</title>
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -11,7 +11,7 @@
 		<!--this section is for my general infofrmation and its a section differentiated by div-->
 		<h1>
 			GBINDINNINUOLA ABDULAZEEZ
-		
+
 		</h1>
 		<div class="basic-info">
 			<address>105, adefisan Street, Ijebu-Ode</address>
@@ -21,16 +21,16 @@
 		</div>
 	</div>
 
-		<div class="biodata">
-			<!--this section is for my Biodata and it's also section differentiated by div-->
-			<h2>BIODATA</h2>
-			<strong>Date Of Birth:</strong> 16<sup>th</sup> Of September, 1999<br><strong>Sex:</strong>
-			Male<br><strong>State Of Origin:</strong>Ogun State<br><strong>Marital
-				Status:</strong>Single<br><strong>Nationality:</strong>Nigerian<br><strong>Religion:</strong>Islam<br><strong>Occupation:</strong>Self
-			employed/ Student
-		</div>
-		<img src="https://res.cloudinary.com/gbindinazeez/image/upload/v1566589089/407_pypy6f.jpg" width="300"
-				height="200" alt="MY IMAGE" class="image">
+	<div class="biodata">
+		<!--this section is for my Biodata and it's also section differentiated by div-->
+		<h2>BIODATA</h2>
+		<strong>Date Of Birth:</strong> 16<sup>th</sup> Of September, 1999<br><strong>Sex:</strong>
+		Male<br><strong>State Of Origin:</strong>Ogun State<br><strong>Marital
+			Status:</strong>Single<br><strong>Nationality:</strong>Nigerian<br><strong>Religion:</strong>Islam<br><strong>Occupation:</strong>Self
+		employed/ Student
+	</div>
+	<img src="https://res.cloudinary.com/gbindinazeez/image/upload/v1566589089/407_pypy6f.jpg" width="300" height="200"
+		alt="MY IMAGE" class="image">
 
 	<section class="skills">
 		<div>
@@ -38,7 +38,8 @@
 			<h2>SKILLS</h2>
 			<p><STRONG>Basic Android Developer</STRONG> with full Knowledge of Xml and Basic java knowlwdge.
 			</p>
-			<p><STRONG>Versatile writng</STRONG> with a record of producing quality publications for educational purpose.
+			<p><STRONG>Versatile writng</STRONG> with a record of producing quality publications for educational
+				purpose.
 			</p>
 			<p><strong>Indrustrious Editor,</strong> a critical reader with a keen judgement of refining and enhancing
 				manuscripts.
@@ -116,6 +117,51 @@
 			<li>Pidgin English</li>
 		</ul>
 	</div>
+
+	<form action="/gbindinazeez@gmail.com">
+		<table style="width:550px;border:0;">
+			<tr>
+				<td>
+					Name*:
+				</td>
+				<td>
+					<input id="name" minlength="4" name="Name" type="text" maxlength="60" style="width:250px;" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Email address*:
+				</td>
+				<td>
+					<input id="mail" name="EmailAddress" type="email" maxlength="90" style="width:250px;" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Title*:
+				</td>
+				<td>
+					<input id="title" name="title" type="text" maxlength="43" style="width:250px;" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Comments*:
+				</td>
+				<td>
+					<textarea id="comment" minlength="20" name="Comments" rows="7" cols="40" style="width:350px;" required></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					* means required fields
+				</td>
+				<td>
+					<input name="Submit" type="submit" value="Submit" />
+				</td>
+			</tr>
+		</table>
+	</form>
 </body>
 
 </html>
