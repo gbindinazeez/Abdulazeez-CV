@@ -1,0 +1,52 @@
+.image {
+    border-color: #ADD8E6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    float: right;
+  }
+
+  .skills {
+      float: left;
+}
+
+  h1 {font-family: 'Courier New', Courier, monospace}
+
+  h2 {font-family: Verdana, Tahoma,}
+
+  .biodata {
+      float: left;
+    width: 500px;}
+
+
+  .core {
+      float: right;
+}
+
+  .education {
+      float: left;
+      width: 1000px;
+  }
+
+
+  .exp {
+      float: right;
+      background-color: aqua;
+      border-radius: 10%;}
+
+  .info {
+      float: left;
+      width: 500px;
+    }
+
+    .lang {
+        float: left;
+        bottom: 100;
+    }
+
+    body {
+        background-color: aqua;
+      border-radius: 10%;
+    }
